@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     name: Build Test App
+    if: ${{ false }}
     strategy:
       matrix:
         idf_ver: ["release-v4.3", "release-v4.4", "latest"]
